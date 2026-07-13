@@ -3,10 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevConf 2026 Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> Hello! </h2>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">💻 DEVCONF 2026</div>
+            <ul class="nav-links">
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Tracks</a></li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#" class="btn-blue">Register Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <!-- HTML-এ img ট্যাগ সহ আপডেট করা ব্যানার সেকশন -->
+<section class="hero">
+    <!-- এখানে banner.jpg এর জায়গায় আপনার ছবির নাম বসাবেন -->
+    <img src="assets/banner.jpg" alt="DevConf Banner" class="hero-bg-img">
+    
+    <div class="hero-content">
+        <h1>Code. <span>Connect.</span> Create</h1>
+        <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
+        <a href="#" class="btn-blue">Register Now</a>
+    </div>
+</section>
+
+    <!-- Speakers Section -->
+    <main class="container">
+        <h2 class="section-title">Meet the Speakers</h2>
+        
+        <div class="speakers-grid">
+            <!-- Speaker 1 -->
+            <div class="speaker-card">
+                <div class="speaker-img-area">
+                    <img src="assets/andrej.png" alt="Speaker 1"></div>
+                <div class="speaker-info">
+                    <div class="speaker-tag">AI/ML</div>
+                    <div class="speaker-name">Andrej Karpathy</div>
+                    <div class="speaker-role">Pretraining Team, OpenAI</div>
+                </div>
+            </div>
+
+            <!-- Speaker 2 -->
+            <div class="speaker-card">
+                <div class="speaker-img-area">
+                    <img src="assets/demis.png" alt="Speaker 2"></div>
+                <div class="speaker-info">
+                    <div class="speaker-tag" style="color: #0284c7;">Cloud & DevOps</div>
+                    <div class="speaker-name">Demis Hassabis</div>
+                    <div class="speaker-role">Co-Founder and CEO, Google DeepMind</div>
+                </div>
+            </div>
+
+            <!-- Speaker 3 -->
+            <div class="speaker-card">
+                <div class="speaker-img-area">
+                    <img src="assets/gary.png" alt="Speaker 3"></div>
+                <div class="speaker-info">
+                    <div class="speaker-tag" style="color: #3b82f6;">Frontend</div>
+                    <div class="speaker-name">Gary Marcus</div>
+                    <div class="speaker-role">Staff Engineer, Vercel</div>
+                </div>
+            </div>
+
+            <!-- Speaker 4 -->
+            <div class="speaker-card">
+                <div class="speaker-img-area">
+                    <img src="assets/mustafa.png" alt="Speaker 1"></div>
+                <div class="speaker-info">
+                    <div class="speaker-tag" style="color: #0d9488;">Security</div>
+                    <div class="speaker-name">Mustafa Suleyman</div>
+                    <div class="speaker-role">CEO of Microsoft AI</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <h2 class="section-title">Secure Your Spot</h2>
+        <p class="section-subtitle">Early bird pricing ends August 15, 2026.</p>
+
+        <div class="pricing-grid">
+            <!-- Standard Plan -->
+            <div class="pricing-card">
+                <div class="plan-type">Standard</div>
+                <div class="plan-price">$399 <span>per person</span></div>
+                <ul class="plan-features">
+                    <li>Access to all 3 conference days</li>
+                    <li>All keynote & session tracks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffee breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 days)</li>
+                </ul>
+                <a href="#" class="btn-outline">Get Standard</a>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="pricing-card pro">
+                <div class="plan-type">Pro</div>
+                <div class="plan-price">$749 <span>per person</span></div>
+                <ul class="plan-features">
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshops access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on-1 mentorship (30 min)</li>
+                </ul>
+                <a href="#" class="btn-blue">Get Pro</a>
+            </div>
+
+            <!-- Team Plan -->
+            <div class="pricing-card">
+                <div class="plan-type">Team</div>
+                <div class="plan-price">$5,999 <span>up to 10 people</span></div>
+                <ul class="plan-features">
+                    <li>Everything in Pro (10 passes)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <a href="#" class="btn-outline dark-bg">Contact Us</a>
+            </div>
+        </div>
+
+        <!-- Custom AI Section Callout -->
+        <div class="ai-section">
+            <h2>Something Missing?</h2>
+            <p>Generate a relevant section with AI</p>
+        </div>
+    </main>
+
 </body>
 </html>
